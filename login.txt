@@ -1,4 +1,10 @@
 @Test
-public void verifyLogin(){
+public void verifyLoginWithvalidCredentials(){
+	Sysout("login successful")
+}
+
+
+@Test
+public void verifyLoginWithInvalidCredentials(){
 	Sysout("login successful")
 }
